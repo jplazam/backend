@@ -1,0 +1,22 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+proyecto-web/node_modules
+api/node_modules
+proyecto-web/.pnp
+proyecto-web/.pnp.js
+
+# testing
+proyecto-web/coverage
+
+# production
+proyecto-web/build
+
+# misc
+api/.env
+proyecto-web/.env
+.vscode
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
